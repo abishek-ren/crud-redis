@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import tech.abishek.crudredis.entity.Product;
 import tech.abishek.crudredis.repository.ProductDao;
-
+//todo add tests for this controller
 @RestController
 @RequestMapping("/api/v1/products")
 public class ProductController {
